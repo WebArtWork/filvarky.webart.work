@@ -38,18 +38,17 @@ header:not(.scrolled){color:var(--ink)}header:not(.scrolled) .logo small{color:v
 footer{background:#1f2a22;color:#fff;padding:66px 0 28px}.foot{display:grid;grid-template-columns:1.6fr repeat(5,1fr);gap:32px}.foot h4{margin:0 0 12px;font-size:.68rem;color:var(--sand);text-transform:uppercase;letter-spacing:.14em}.foot a{display:block;color:#c9d0c8;font-size:.82rem;margin:7px 0}.foot a:hover{color:#fff}.foot .formula{margin:12px 0 0;font-size:.64rem;color:var(--green-soft)}.foot address{font-style:normal;color:#c9d0c8;font-size:.86rem;margin-top:20px}.copyright{border-top:1px solid #ffffff17;margin-top:44px;padding-top:20px;font-size:.74rem;color:#98a298}.mobile-cta{display:none}
 .reveal{opacity:0;transform:translateY(24px);transition:opacity .9s cubic-bezier(.16,.8,.3,1),transform .9s cubic-bezier(.16,.8,.3,1)}.reveal.visible{opacity:1;transform:none}.reveal-item{opacity:0;transform:translateY(24px);transition:opacity .8s cubic-bezier(.16,.8,.3,1),transform .8s cubic-bezier(.16,.8,.3,1)}.reveal-group.visible .reveal-item{opacity:1;transform:none}.reveal-group.visible .reveal-item:nth-child(2){transition-delay:.07s}.reveal-group.visible .reveal-item:nth-child(3){transition-delay:.14s}.reveal-group.visible .reveal-item:nth-child(4){transition-delay:.21s}.reveal-group.visible .reveal-item:nth-child(5){transition-delay:.28s}.reveal-group.visible .reveal-item:nth-child(6){transition-delay:.35s}.reveal-group.visible .reveal-item:nth-child(7){transition-delay:.42s}
 .bookbar{margin-top:34px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr)) auto;gap:6px;padding:6px;background:#fffffff0;border-radius:22px;max-width:900px;color:var(--ink);box-shadow:0 20px 50px #0003}.bookbar label{display:flex;flex-direction:column;gap:3px;padding:10px 16px;border-radius:16px;font-size:.72rem;font-weight:800;color:var(--muted)}.bookbar label:hover{background:var(--cream)}.bookbar input,.bookbar select{background:transparent;border:0;color:var(--ink);font:700 .98rem var(--sans);padding:2px 0;min-width:0;width:100%}.bookbar .btn{height:100%;min-height:58px;border-radius:16px}.bookbar-note{margin:10px 0 0;font-size:.78rem;color:var(--muted)}.bookbar-note a{color:var(--ink);font-weight:800}.hero-inner{padding-bottom:40px}.hero-book{position:relative;padding:0 0 72px}
-form.req{background:var(--white);border:1px solid var(--line);border-radius:24px;padding:34px}.tabs{display:grid;grid-template-columns:repeat(2,1fr);gap:6px;border:0;margin:0 0 22px;padding:5px;background:var(--cream);border-radius:999px}.tabs legend{position:absolute;left:-9999px}.tab{position:relative}.tab input{position:absolute;opacity:0;inset:0;margin:0;cursor:pointer}.tab span{display:block;text-align:center;padding:12px 8px;border-radius:999px;font-size:.78rem;font-weight:800;color:var(--green)}.tab input:checked+span{background:var(--green);color:#fff}.form-title{font:600 1.8rem/1.1 var(--serif);margin:0 0 18px}.fields{border:0;margin:0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:16px}.fields[hidden]{display:none}.fields .full{grid-column:1/-1}.f{display:flex;flex-direction:column;gap:6px;font-size:.78rem;font-weight:700;color:var(--ink)}.f input,.f select,.f textarea{font:600 .96rem var(--sans);color:var(--ink);background:var(--white);border:1px solid #a89f90;border-radius:12px;padding:12px;min-height:48px;width:100%}.interests{border:0;padding:0;margin:0}.interests legend{font-size:.78rem;font-weight:700;margin-bottom:10px;padding:0}.chips{display:flex;flex-wrap:wrap;gap:8px}.chip{position:relative}.chip input{position:absolute;opacity:0;inset:0;margin:0;cursor:pointer}.chip span{display:inline-block;padding:9px 16px;border:1px solid #a89f90;border-radius:999px;font-size:.82rem;font-weight:700;background:var(--white)}.chip input:checked+span{background:var(--aqua);border-color:var(--aqua);color:#fff}.chip input:focus-visible+span{outline:3px solid var(--terra);outline-offset:2px}.shared{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:16px}.shared .full{grid-column:1/-1}.req-foot{display:flex;flex-wrap:wrap;align-items:center;gap:16px;margin-top:24px}.req-foot p{margin:0;font-size:.8rem;color:var(--muted);flex:1;min-width:220px}
-form.off :disabled{cursor:not-allowed}form.off input,form.off select,form.off textarea,form.off .tab span,form.off .chip span{opacity:.6}form.off .btn:disabled{opacity:.5}form.off .btn:disabled:hover{transform:none}
+form.req{position:relative;background:var(--white);border:1px solid var(--line);border-radius:24px;padding:34px}.req-phone{display:inline-block;margin-top:24px;font:600 1.6rem/1.2 var(--serif);color:var(--green)}.req-phone:hover{color:var(--terra-ink)}.fields{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:16px}.fields .full{grid-column:1/-1}.f{display:flex;flex-direction:column;gap:6px;min-width:0;font-size:.78rem;font-weight:700;color:var(--ink)}.f small{font-size:.76rem;font-weight:600;color:var(--muted)}.f input,.f select,.f textarea{display:block;width:100%;max-width:100%;min-width:0;min-height:48px;padding:12px;border:1px solid #a89f90;border-radius:12px;background:var(--white);color:var(--ink);font:600 .96rem var(--sans)}.f textarea{min-height:100px;resize:vertical}.f input:focus,.f select:focus,.f textarea:focus{outline:3px solid var(--aqua-soft);outline-offset:1px;border-color:var(--aqua)}.f [aria-invalid=true]{border-color:var(--terra);box-shadow:0 0 0 1px var(--terra)}[data-error-for]{font-size:.78rem;font-weight:700;color:var(--terra-ink)}[data-error-for]:empty{display:none}.trap{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}.req-foot{display:flex;flex-wrap:wrap;align-items:center;gap:16px;margin-top:24px}.req-foot p{margin:0;font-size:.8rem;color:var(--muted);flex:1;min-width:200px}.req-foot .btn[disabled]{opacity:.55;cursor:wait;transform:none}[data-status]{margin:18px 0 0;padding:14px 16px;border-left:3px solid var(--aqua);border-radius:0 12px 12px 0;background:var(--cream);font-size:.92rem}[data-status]:empty{display:none}[data-status][data-state=error]{border-color:var(--terra);color:var(--terra-ink)}[data-status] a{font-weight:800;text-decoration:underline}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reveal,.reveal-item{opacity:1;transform:none;transition:none}.btn{transition:none}}
 @media(max-width:1100px){.links{display:none}.facts-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.tiles,.steps{grid-template-columns:repeat(2,minmax(0,1fr))}.foot{grid-template-columns:repeat(3,1fr)}.foot>div:first-child{grid-column:1/-1}}
 @media(max-width:920px){.nav .btn,.phone{display:none}.split,.stay-head,.stay-grid,.req-grid{grid-template-columns:1fr;gap:36px}.rooms-num{text-align:left}.split .ph,.stay-grid .ph,.swim .ph{min-height:340px}.rev{grid-template-columns:1fr;gap:14px;padding:28px 24px}.gal{grid-template-columns:1fr 1fr;grid-auto-rows:180px}.section{padding:76px 0}.hero-inner{grid-template-columns:1fr;gap:36px;padding:118px 0 56px}.hero:before{display:none}.hero-photo{min-height:340px}.hero-card{left:16px;bottom:16px}.mobile-cta{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;padding:6px;position:fixed;bottom:0;left:0;right:0;z-index:50;background:var(--white);box-shadow:0 -6px 24px #0002}.mobile-cta .btn{padding:0 6px;min-height:50px;font-size:.7rem}body{padding-bottom:62px}.split.flip>.ph{order:-1}.d-only{display:none}.m-only{display:block}.actions.m-only{display:flex}}
 @media(max-width:560px){.wrap{width:calc(100% - 32px)}.nav{height:70px}.hero-inner{padding:100px 0 44px}.hero h1 .name{font-size:3rem}.hero-photo{min-height:280px}.facts-grid{grid-template-columns:1fr 1fr}.can,.steps,.tiles{grid-template-columns:1fr}.fact{padding:18px 16px}.foot{grid-template-columns:1fr 1fr}.gal{grid-template-columns:1fr}.gal .ph:first-child{grid-column:auto;grid-row:auto}.score b{font-size:3.3rem}.addr{font-size:1.45rem}.chain li{padding:8px 12px;font-size:.7rem}}
 @media(max-width:920px){.bookbar{grid-template-columns:1fr 1fr}.bookbar .btn{grid-column:1/-1}}
-@media(max-width:560px){.fields,.shared{grid-template-columns:1fr}form.req{padding:22px 16px}}
-.req-mark{color:#c0392b}.req-success{padding:28px 8px;text-align:center}.req-success-icon{font-size:2.2rem;line-height:1;margin:0 0 10px}.req-success-title{font-size:1.25rem;font-weight:700;margin:0 0 8px}.req-success-text{opacity:.8;margin:0 0 20px}</style></head><body><a class="skip" href="#main">До основного змісту</a>
-<header id="top"><div class="wrap nav"><a class="logo" href="#top" aria-label="Фільварки Центр, на початок сторінки"><strong>ФІЛЬВАРКИ ЦЕНТР</strong><small lang="en">3★ Hotel · Kamianets-Podilskyi</small></a><nav class="links" aria-label="Основна навігація"><a href="#stay">Номери</a><a href="#pool">Басейн</a><a href="#breakfast">Сніданки</a><a href="#sauna">Сауна</a><a href="#gallery">Галерея</a><a href="#contacts">Контакти</a></nav><a class="phone" href="tel:+380980066088">+380 98 006 60 88</a><a class="btn" href="#request">Забронювати номер</a></div></header>
+@media(max-width:560px){.fields{grid-template-columns:minmax(0,1fr)}form.req{padding:22px 16px}.req-phone{font-size:1.4rem}}
+</style></head><body><a class="skip" href="#main">До основного змісту</a>
+<header id="top"><div class="wrap nav"><a class="logo" href="#top" aria-label="Фільварки Центр, на початок сторінки"><strong>ФІЛЬВАРКИ ЦЕНТР</strong><small lang="en">3★ Hotel · Kamianets-Podilskyi</small></a><nav class="links" aria-label="Основна навігація"><a href="#stay">Номери</a><a href="#pool">Басейн</a><a href="#breakfast">Сніданки</a><a href="#sauna">Сауна</a><a href="#gallery">Галерея</a><a href="#contacts">Контакти</a></nav><a class="phone" href="tel:+380980066088">+380 98 006 60 88</a><a class="btn" href="#stay-request">Забронювати номер</a></div></header>
 <main id="main">
-<section class="hero"><div class="wrap hero-inner"><div class="hero-copy"><h1><span class="name">Фільварки Центр</span><span class="full">Готель у Кам’янці-Подільському</span></h1><h2>Міський готель із настроєм відпочинку</h2><p class="sub">Сніданок, відкритий басейн та сауна.</p><div class="actions d-only"><a class="btn" href="#stay">Переглянути номери</a><a class="btn line" href="#about">Відкрити готель</a></div><div class="actions m-only"><a class="btn" href="#request">Забронювати</a><a class="btn line" href="#pool">Басейн</a></div><p class="hero-meta"><span><b>3★</b> готель</span><span>вул. Лесі Українки, 99</span><a href="tel:+380980066088"><b>+380 98 006 60 88</b></a></p></div><div class="hero-visual"><div class="hero-photo" role="img" aria-label="Відкритий басейн — ілюстративне фото"></div><p class="hero-card"><b>18 номерів</b><span>камерний готель</span></p></div></div><div class="wrap hero-book d-only"><form class="bookbar d-only" aria-label="Перевірити доступність номерів"><label>Заїзд<input type="date"></label><label>Виїзд<input type="date"></label><label>Гості<select><option value="1">1 гість</option><option value="2" selected>2 гості</option><option value="3">3 гості</option><option value="4">4 гості</option><option value="5">5 гостей</option><option value="6">6 гостей</option></select></label><button class="btn" type="submit">Перевірити доступність</button></form><p class="bookbar-note">Онлайн-перевірка поки не працює. Телефонуйте: <a href="tel:+380980066088">+380 98 006 60 88</a></p></div></section>
+<section class="hero"><div class="wrap hero-inner"><div class="hero-copy"><h1><span class="name">Фільварки Центр</span><span class="full">Готель у Кам’янці-Подільському</span></h1><h2>Міський готель із настроєм відпочинку</h2><p class="sub">Сніданок, відкритий басейн та сауна.</p><div class="actions d-only"><a class="btn" href="#stay">Переглянути номери</a><a class="btn line" href="#about">Відкрити готель</a></div><div class="actions m-only"><a class="btn" href="#stay-request">Забронювати</a><a class="btn line" href="#pool">Басейн</a></div><p class="hero-meta"><span><b>3★</b> готель</span><span>вул. Лесі Українки, 99</span><a href="tel:+380980066088"><b>+380 98 006 60 88</b></a></p></div><div class="hero-visual"><div class="hero-photo" role="img" aria-label="Відкритий басейн — ілюстративне фото"></div><p class="hero-card"><b>18 номерів</b><span>камерний готель</span></p></div></div><div class="wrap hero-book d-only"><form class="bookbar d-only" id="bookbar" aria-label="Перевірити доступність номерів"><label>Заїзд<input type="date" data-to="checkIn"></label><label>Виїзд<input type="date" data-to="checkOut"></label><label>Гості<select data-to="guests"><option value="1">1 гість</option><option value="2" selected>2 гості</option><option value="3">3 гості</option><option value="4">4 гості</option><option value="5">5 гостей</option><option value="6">6 гостей</option></select></label><button class="btn" type="submit">Перевірити доступність</button></form><p class="bookbar-note">Далі залиште телефон — адміністратор передзвонить. Або телефонуйте: <a href="tel:+380980066088">+380 98 006 60 88</a></p></div></section>
 
 <section class="facts" aria-label="Коротко про готель"><div class="wrap facts-grid reveal-group"><div class="fact reveal-item"><b>18 номерів</b><span>камерний готель</span></div><div class="fact reveal-item"><b>Сніданок</b><span>безкоштовний для гостей</span></div><div class="fact reveal-item"><b>Відкритий басейн</b><span>при готелі</span></div><div class="fact reveal-item"><b>Сауна</b><span>для вечора</span></div><div class="fact reveal-item"><b>Wi-Fi</b><span>безкоштовний</span></div><div class="fact reveal-item"><b>Парковка</b><span>безкоштовна</span></div></div></section>
 
@@ -62,7 +61,9 @@ form.off :disabled{cursor:not-allowed}form.off input,form.off select,form.off te
 
 <section class="section swim" id="pool"><div class="wrap split"><div class="ph reveal" style="--img:url('images/hero.jpg')" role="img" aria-label="Відкритий басейн — ілюстративне фото"><span class="big" aria-hidden="true" lang="en">Swim</span></div><div class="reveal"><p class="eyebrow" lang="en">Swim</p><h2 class="title">Додайте до міської поїздки трохи літа</h2><p class="lead">При готелі — відкритий басейн. Навіть кілька годин біля води змінюють звичайну ночівлю в місті.</p><p class="note"><strong>Сезон роботи, години й умови відвідування басейну</strong> уточнюйте перед поїздкою.</p><div class="actions"><a class="btn" href="tel:+380980066088">Дізнатися про басейн</a><a class="btn ghost" href="#sauna">Далі — сауна</a></div></div></div></section>
 
-<section class="section relax" id="sauna"><div class="wrap split flip"><div class="reveal"><p class="eyebrow" lang="en">Relax</p><h2 class="title">Тепло після активного дня</h2><p class="lead">Сауна в готелі — щоб завершити день у місті чи біля басейну.</p><ul class="chain" lang="en"><li>Swim</li><li>Warm</li><li>Relax</li></ul><p class="note"><strong>Тип сауни, місткість, тривалість і вартість</strong> уточнить адміністратор, коли отримає ваш запит.</p><div class="actions"><a class="btn" href="#request">Забронювати сауну</a></div></div><div class="ph reveal" style="--img:url('images/sauna.jpg')" role="img" aria-label="Сауна — ілюстративне фото"><span class="big" aria-hidden="true" lang="en">Relax</span></div></div></section>
+<section class="section relax" id="sauna"><div class="wrap split flip"><div class="reveal"><p class="eyebrow" lang="en">Relax</p><h2 class="title">Тепло після активного дня</h2><p class="lead">Сауна в готелі — щоб завершити день у місті чи біля басейну.</p><ul class="chain" lang="en"><li>Swim</li><li>Warm</li><li>Relax</li></ul><p class="note"><strong>Тип сауни, місткість, тривалість і вартість</strong> уточнить адміністратор, коли отримає ваш запит.</p><div class="actions"><a class="btn" href="#sauna-request">Забронювати сауну</a><a class="btn ghost" href="tel:+380980066088">Зателефонувати</a></div></div><div class="ph reveal" style="--img:url('images/sauna.jpg')" role="img" aria-label="Сауна — ілюстративне фото"><span class="big" aria-hidden="true" lang="en">Relax</span></div></div></section>
+
+<section class="section request" id="sauna-request"><div class="wrap req-grid"><div class="reveal"><p class="eyebrow" lang="en">Relax</p><h2 class="title">Забронювати сауну</h2><p class="lead">Оберіть день, час і кількість людей. Адміністратор передзвонить, щоб підтвердити бронювання й розповісти про тривалість і вартість.</p><a class="req-phone" href="tel:+380980066088">+380 98 006 60 88</a></div><form class="req reveal" data-hotelos data-form-name="Бронювання сауни" novalidate><div class="fields"><label class="f full">Телефон<small>Обов’язково, щоб ми могли передзвонити</small><input name="phone" type="tel" autocomplete="tel" inputmode="tel" required aria-describedby="sauna-phone-error"><span id="sauna-phone-error" data-error-for="phone"></span></label><label class="f">Ім’я<input name="name" type="text" autocomplete="name" maxlength="200"></label><label class="f">Людей<input name="guests" type="number" min="1" max="50" inputmode="numeric"></label><label class="f">Дата<input name="date" type="date"></label><label class="f">Час<input name="time" type="time"></label><label class="f full">Побажання<textarea name="message" maxlength="5000"></textarea></label><label class="trap" aria-hidden="true">Не заповнюйте<input name="website" type="text" tabindex="-1" autocomplete="off"></label></div><div class="req-foot"><button class="btn dark" type="submit">Надіслати запит</button><p>Або телефонуйте: <a href="tel:+380980066088"><b>+380 98 006 60 88</b></a></p></div><p data-status role="status" aria-live="polite"></p></form></div></section>
 
 <section class="section eat" id="eat"><div class="wrap split"><div class="ph reveal" style="--img:url('images/cafe.jpg')" role="img" aria-label="Заклад харчування — ілюстративне фото"><span class="big" aria-hidden="true" lang="en">Eat</span></div><div class="reveal"><p class="eyebrow" lang="en">Eat</p><h2 class="title">Поїжте, не залишаючи готель</h2><p class="lead">При готелі працює заклад харчування — зручно після басейну чи сауни.</p><p class="note"><strong>Меню, ціни й години роботи</strong> — за телефоном.</p><div class="actions"><a class="btn dark" href="tel:+380980066088">Запитати про меню</a></div></div></div></section>
 
@@ -79,139 +80,162 @@ form.off :disabled{cursor:not-allowed}form.off input,form.off select,form.off te
 
 <section class="section reviews" id="reviews" aria-labelledby="reviews-title"><div class="wrap"><p class="eyebrow" lang="en">Guests</p><h2 class="title" id="reviews-title">Що кажуть гості</h2><div class="rev reveal"><div class="score"><b>3.9</b><span>/ 5 · Google</span></div><p><strong>321 відгук</strong> на Google. Дані станом на 29.09.2026 — актуальну оцінку й самі відгуки дивіться на Google.</p><a class="btn line" href="https://www.google.com.ua/travel/hotels/entity/ChoIq7-smc225-fkARoNL2cvMTFiNmRnaDJyZxAB" target="_blank" rel="noopener">Переглянути відгуки</a></div></div></section>
 
-<section class="section request" id="request"><div class="wrap req-grid"><div class="reveal"><p class="eyebrow">Бронювання</p><h2 class="title">Перевірити проживання</h2><p class="lead">Залиште заявку нижче — ми зателефонуємо або напишемо для підтвердження. Можна також бронювати за телефоном або email.</p><div class="contact-list" id="contacts"><a href="tel:+380980066088"><small>Телефон</small><b>+380 98 006 60 88</b></a><a href="mailto:hotel@filvarki.com.ua"><small>Email</small><b>hotel@filvarki.com.ua</b></a><a href="http://www.filvarki.com.ua/" target="_blank" rel="noopener"><small>Сайт готелю</small><b>filvarki.com.ua</b></a><div><small>Адреса</small><b>вул. Лесі Українки, 99, Кам’янець-Подільський</b></div></div></div>
-<form class="req reveal"><fieldset class="tabs"><legend>Тип запиту</legend><label class="tab"><input type="radio" name="kind" value="stay" checked><span>Проживання</span></label><label class="tab"><input type="radio" name="kind" value="sauna"><span>Сауна</span></label></fieldset>
-<p class="form-title" id="formTitle">Перевірити проживання</p>
-<fieldset class="fields" data-kind="stay"><label class="f">Заїзд<input type="date" name="Заїзд"></label><label class="f">Виїзд<input type="date" name="Виїзд"></label><label class="f full">Кількість гостей<input type="number" name="Гостей" min="1" max="40" value="2"></label><fieldset class="interests full"><legend>Що вас цікавить?</legend><div class="chips"><label class="chip"><input type="checkbox" name="Додатково" value="Басейн"><span>Басейн</span></label><label class="chip"><input type="checkbox" name="Додатково" value="Сауна"><span>Сауна</span></label><label class="chip"><input type="checkbox" name="Додатково" value="Харчування"><span>Харчування</span></label></div></fieldset></fieldset>
-<fieldset class="fields" data-kind="sauna" hidden><label class="f">Дата<input type="date" name="Дата"></label><label class="f">Час<input type="time" name="Час"></label><label class="f full">Кількість гостей<input type="number" name="Гостей" min="1" max="20" value="2"></label></fieldset>
-<div class="shared"><label class="f"><span>Ім’я <b class="req-mark" aria-hidden="true">*</b></span><input type="text" name="Ім’я" autocomplete="name" required></label><label class="f"><span>Телефон <b class="req-mark" aria-hidden="true">*</b></span><input type="tel" name="Телефон" autocomplete="tel" required></label><label class="f full">Email<input type="email" name="Email" autocomplete="email"></label></div>
-<div class="req-foot"><button class="btn dark" type="submit">Перевірити доступність</button><p class="req-status" aria-live="polite"></p><p>Або телефонуйте: <a href="tel:+380980066088"><b>+380 98 006 60 88</b></a></p></div></form></div></section>
+<section class="section request" id="stay-request"><div class="wrap req-grid"><div class="reveal"><p class="eyebrow">Бронювання</p><h2 class="title">Перевірити проживання</h2><p class="lead">Залиште телефон і, за бажанням, дати поїздки. Адміністратор зателефонує, щоб підтвердити номер, ціну та умови.</p><div class="contact-list" id="contacts"><a href="tel:+380980066088"><small>Телефон</small><b>+380 98 006 60 88</b></a><a href="mailto:hotel@filvarki.com.ua"><small>Email</small><b>hotel@filvarki.com.ua</b></a><a href="http://www.filvarki.com.ua/" target="_blank" rel="noopener"><small>Сайт готелю</small><b>filvarki.com.ua</b></a><div><small>Адреса</small><b>вул. Лесі Українки, 99, Кам’янець-Подільський</b></div></div></div>
+<form class="req reveal" data-hotelos data-form-name="Запит на проживання" novalidate><div class="fields"><label class="f full">Телефон<small>Обов’язково, щоб ми могли передзвонити</small><input name="phone" type="tel" autocomplete="tel" inputmode="tel" required aria-describedby="stay-phone-error"><span id="stay-phone-error" data-error-for="phone"></span></label><label class="f">Ім’я<input name="name" type="text" autocomplete="name" maxlength="200"></label><label class="f">Email<input name="email" type="email" autocomplete="email" maxlength="200"></label><label class="f">Гостей<input name="guests" type="number" min="1" max="50" inputmode="numeric"></label><label class="f">Дата заїзду<input name="checkIn" type="date"></label><label class="f">Дата виїзду<input name="checkOut" type="date" aria-describedby="stay-checkout-error"><span id="stay-checkout-error" data-error-for="checkOut"></span></label><label class="f full">Побажання<textarea name="message" maxlength="5000"></textarea></label><label class="trap" aria-hidden="true">Не заповнюйте<input name="website" type="text" tabindex="-1" autocomplete="off"></label></div><div class="req-foot"><button class="btn dark" type="submit">Надіслати запит</button><p>Або телефонуйте: <a href="tel:+380980066088"><b>+380 98 006 60 88</b></a></p></div><p data-status role="status" aria-live="polite"></p></form></div></section>
 
-<section class="final"><div class="wrap reveal"><p class="eyebrow" lang="en">Stay · Swim · Eat · Relax</p><h2 class="title">Зупиніться. І залиште час на відпочинок.</h2><p>18 номерів, сніданок, відкритий басейн і сауна у «Фільварки Центр».</p><div class="actions"><a class="btn" href="#request">Забронювати номер</a><a class="btn ghost" href="#about">Переглянути готель</a></div></div></section></main>
+<section class="final"><div class="wrap reveal"><p class="eyebrow" lang="en">Stay · Swim · Eat · Relax</p><h2 class="title">Зупиніться. І залиште час на відпочинок.</h2><p>18 номерів, сніданок, відкритий басейн і сауна у «Фільварки Центр».</p><div class="actions"><a class="btn" href="#stay-request">Забронювати номер</a><a class="btn ghost" href="#about">Переглянути готель</a></div></div></section></main>
 
-<footer><div class="wrap"><div class="foot"><div><a class="logo" href="#top"><strong>ФІЛЬВАРКИ ЦЕНТР</strong><small lang="en">3★ Hotel · Kamianets-Podilskyi</small></a><p class="formula tag" lang="en">Stay · Swim · Eat · Relax</p><address>вул. Лесі Українки, 99, Кам’янець-Подільський<br><a href="tel:+380980066088">+380 98 006 60 88</a><a href="mailto:hotel@filvarki.com.ua">hotel@filvarki.com.ua</a></address></div><div><h4 lang="en">Stay</h4><a href="#stay">Номери</a><a href="#request">Бронювання</a><a href="#breakfast">Сніданок</a></div><div><h4 lang="en">Swim</h4><a href="#pool">Відкритий басейн</a></div><div><h4 lang="en">Relax</h4><a href="#sauna">Сауна</a></div><div><h4 lang="en">Eat</h4><a href="#eat">Харчування</a></div><div><h4>Інформація</h4><a href="#arrive">Wi-Fi</a><a href="#arrive">Парковка</a><a href="#pets">Тварини</a><a href="#gallery">Галерея</a><a href="#location">Карта</a><a href="#contacts">Контакти</a></div></div><div class="copyright">© Фільварки Центр · вул. Лесі Українки, 99, Кам’янець-Подільський · Ціни, наявність і умови послуг уточнюйте в готелі. Фото на сторінці ілюстративні.</div></div></footer>
-<nav class="mobile-cta" aria-label="Швидкі дії"><a class="btn" href="#request">Номер</a><a class="btn dark" href="tel:+380980066088">Подзвонити</a><a class="btn water" href="https://maps.google.com/?cid=16487570160789168043" target="_blank" rel="noopener">Карта</a></nav>
+<footer><div class="wrap"><div class="foot"><div><a class="logo" href="#top"><strong>ФІЛЬВАРКИ ЦЕНТР</strong><small lang="en">3★ Hotel · Kamianets-Podilskyi</small></a><p class="formula tag" lang="en">Stay · Swim · Eat · Relax</p><address>вул. Лесі Українки, 99, Кам’янець-Подільський<br><a href="tel:+380980066088">+380 98 006 60 88</a><a href="mailto:hotel@filvarki.com.ua">hotel@filvarki.com.ua</a></address></div><div><h4 lang="en">Stay</h4><a href="#stay">Номери</a><a href="#stay-request">Бронювання</a><a href="#breakfast">Сніданок</a></div><div><h4 lang="en">Swim</h4><a href="#pool">Відкритий басейн</a></div><div><h4 lang="en">Relax</h4><a href="#sauna">Сауна</a></div><div><h4 lang="en">Eat</h4><a href="#eat">Харчування</a></div><div><h4>Інформація</h4><a href="#arrive">Wi-Fi</a><a href="#arrive">Парковка</a><a href="#pets">Тварини</a><a href="#gallery">Галерея</a><a href="#location">Карта</a><a href="#contacts">Контакти</a></div></div><div class="copyright">© Фільварки Центр · вул. Лесі Українки, 99, Кам’янець-Подільський · Ціни, наявність і умови послуг уточнюйте в готелі. Фото на сторінці ілюстративні.</div></div></footer>
+<nav class="mobile-cta" aria-label="Швидкі дії"><a class="btn" href="#stay-request">Номер</a><a class="btn dark" href="tel:+380980066088">Подзвонити</a><a class="btn water" href="https://maps.google.com/?cid=16487570160789168043" target="_blank" rel="noopener">Карта</a></nav>
 <script>const siteHeader=document.querySelector('header');const onHeaderScroll=()=>siteHeader.classList.toggle('scrolled',scrollY>40);onHeaderScroll();addEventListener('scroll',onHeaderScroll,{passive:true});
 const observer=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');observer.unobserve(e.target)}}),{threshold:.1});document.querySelectorAll('.reveal,.reveal-group').forEach(el=>observer.observe(el));
 </script><script>
-(function(){
-var ENDPOINT='https://it.webart.work/api/telegram/contact';
-var SLUG=location.hostname.split('.')[0];
-var KIND_LABELS={stay:'Проживання',group:'Група',event:'Подія',sauna:'Сауна'};
+document.getElementById('bookbar')?.addEventListener('submit',e=>{e.preventDefault();const form=document.querySelector('#stay-request form');e.target.querySelectorAll('[data-to]').forEach(el=>{const target=form.elements.namedItem(el.dataset.to);if(target&&el.value){target.value=el.value;target.dispatchEvent(new Event('change'))}});document.getElementById('stay-request').scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'});form.elements.namedItem('phone').focus({preventScroll:true})});
+</script><script type="module">
+// HotelOS site forms. Paste this whole block into the site's index.html as an inline module
+// script right before the closing body tag, and set the three constants below. Never put a
+// literal closing script tag inside this file: it would end the inline script early.
+// Contract (hotelos.webart.work/CRM.md → Submission data contract, firestore.rules):
+// - every form is <form data-hotelos data-form-name="…" novalidate> inside a <section id="{formId}">;
+//   the section id IS the formId (stable slug, e.g. stay-request, sauna-request) and the CRM
+//   links to SITE + '#' + formId, so the link scrolls to the start of that section;
+// - fields are matched by name: phone (required), name, email, message, checkIn, checkOut, guests,
+//   roomType, date, time, service; a [data-genders] box renders one select per guest (hostels);
+// - errors go to [data-error-for="<name>"], the result to [data-status]; `website` is a honeypot.
+const HOTEL_ID = 'kp-filvarky'; // Firestore hotels/{id}: 'kp-' + site folder name
+const SITE = 'https://filvarky.webart.work/'; // from the site's CNAME
+const PHONE = '+380 98 006 60 88'; // shown when sending fails
 
-document.querySelectorAll('.section.request form.req').forEach(function(form){
-var kindRadios=form.querySelectorAll('input[name="kind"]');
-var applyKind=function(){
-var checked=form.querySelector('input[name="kind"]:checked');
-var val=checked?checked.value:null;
-form.querySelectorAll('[data-kind]').forEach(function(fs){
-var active=fs.getAttribute('data-kind')===val;
-fs.hidden=!active;
-fs.disabled=!active;
-});
+const FIREBASE = {
+	apiKey: 'AIzaSyBeSB5EuC4BBSpmCGA3Pjk7dD_JV2SdcSQ',
+	authDomain: 'hotel-upwork.firebaseapp.com',
+	projectId: 'hotel-upwork',
+	appId: '1:40129364672:web:c9659550ebf0f1d8a36325',
 };
-if(kindRadios.length){
-kindRadios.forEach(function(r){r.addEventListener('change',applyKind)});
-applyKind();
+const SDK = 'https://www.gstatic.com/firebasejs/12.19.0/';
+const TEXT_FIELDS = ['name', 'email', 'message', 'checkIn', 'checkOut', 'date', 'time', 'roomType', 'service'];
+const today = new Date(Date.now() - new Date().getTimezoneOffset() * 6e4).toISOString().slice(0, 10);
+
+let db;
+async function firestore() {
+	if (db) return db;
+	// Loaded on first submit only, so the page itself stays light.
+	const [{ initializeApp }, lite] = await Promise.all([import(SDK + 'firebase-app.js'), import(SDK + 'firebase-firestore-lite.js')]);
+	db = { lite, store: lite.getFirestore(initializeApp(FIREBASE)) };
+	return db;
 }
 
-var petRadios=form.querySelectorAll('input[name="Тварина"]');
-var petExtra=form.querySelector('.pet-extra');
-var applyPet=function(){
-var checked=form.querySelector('input[name="Тварина"]:checked');
-var show=!!checked&&checked.value==='Так';
-petExtra.hidden=!show;
-petExtra.querySelectorAll('input,select,textarea').forEach(function(el){el.disabled=!show});
-};
-if(petRadios.length&&petExtra){
-petRadios.forEach(function(r){r.addEventListener('change',applyPet)});
-applyPet();
+function setup(form) {
+	const formId = form.closest('section[id]')?.id;
+	if (!formId) return console.error('HotelOS form needs a parent <section id="formId">', form);
+	const field = (name) => form.elements.namedItem(name);
+	const statusEl = form.querySelector('[data-status]');
+	const submit = form.querySelector('[type=submit]');
+	const submitLabel = submit.textContent;
+	const gendersBox = form.querySelector('[data-genders]');
+
+	for (const name of ['checkIn', 'checkOut', 'date']) if (field(name)) field(name).min = today;
+	if (field('checkIn') && field('checkOut')) {
+		field('checkIn').addEventListener('change', () => {
+			const checkIn = field('checkIn').value;
+			field('checkOut').min = checkIn || today;
+			if (field('checkOut').value && field('checkOut').value <= checkIn) field('checkOut').value = '';
+		});
+	}
+
+	// Hostels: one gender select per guest, kept in sync with the guests count.
+	function renderGenders() {
+		if (!gendersBox) return;
+		const count = Math.min(Math.max(parseInt(field('guests')?.value, 10) || 1, 1), 20);
+		const current = [...gendersBox.querySelectorAll('select')].map((select) => select.value);
+		gendersBox.replaceChildren(
+			...Array.from({ length: count }, (_, i) => {
+				const label = document.createElement('label');
+				label.textContent = `Гість ${i + 1}`;
+				const select = document.createElement('select');
+				select.name = 'gender';
+				select.required = true;
+				select.innerHTML = '<option value="">Стать</option><option value="female">Жінка</option><option value="male">Чоловік</option>';
+				select.value = current[i] ?? '';
+				label.append(select);
+				return label;
+			}),
+		);
+	}
+	if (gendersBox) {
+		field('guests')?.addEventListener('input', renderGenders);
+		renderGenders();
+	}
+
+	function setError(name, text) {
+		const input = field(name);
+		if (input instanceof Element) input.setAttribute('aria-invalid', text ? 'true' : 'false');
+		const slot = form.querySelector(`[data-error-for="${name}"]`);
+		if (slot) slot.textContent = text;
+	}
+
+	function showStatus(state, html) {
+		statusEl.dataset.state = state;
+		statusEl.innerHTML = html;
+	}
+
+	form.addEventListener('submit', async (event) => {
+		event.preventDefault();
+		showStatus('', '');
+		const phone = field('phone').value.trim();
+		const digits = phone.replace(/\D/g, '');
+		setError('phone', digits.length < 9 || digits.length > 15 ? 'Вкажіть номер телефону, щоб ми могли передзвонити.' : '');
+		if (field('checkIn') && field('checkOut')) {
+			const { value: checkIn } = field('checkIn');
+			const { value: checkOut } = field('checkOut');
+			setError('checkOut', checkIn && checkOut && checkOut <= checkIn ? 'Дата виїзду має бути пізніше за дату заїзду.' : '');
+		}
+		const genderSelects = gendersBox ? [...gendersBox.querySelectorAll('select')] : [];
+		if (gendersBox) {
+			const missing = genderSelects.some((select) => !select.value);
+			for (const select of genderSelects) select.setAttribute('aria-invalid', missing && !select.value ? 'true' : 'false');
+			const slot = form.querySelector('[data-error-for="genders"]');
+			if (slot) slot.textContent = missing ? 'Вкажіть стать кожного гостя, щоб ми підібрали місця.' : '';
+		}
+		const invalid = form.querySelector('[aria-invalid=true]');
+		if (invalid) return invalid.focus();
+
+		const thanks = `Дякуємо! Ми зателефонуємо на ${phone.replace(/</g, '')} найближчим часом.`;
+		// Bots fill the hidden field: pretend success, send nothing.
+		if (field('website')?.value) {
+			form.reset();
+			renderGenders();
+			return showStatus('ok', thanks);
+		}
+
+		const lead = { phone, formId, formName: form.dataset.formName, site: SITE, hotelId: HOTEL_ID };
+		for (const name of TEXT_FIELDS) {
+			const value = field(name)?.value?.trim();
+			if (value) lead[name] = value;
+		}
+		const guests = parseInt(field('guests')?.value, 10);
+		if (guests >= 1 && guests <= 50) lead.guests = guests;
+		if (genderSelects.length) lead.genders = genderSelects.map((select) => select.value);
+
+		submit.disabled = true;
+		submit.textContent = 'Надсилаємо…';
+		try {
+			const { lite, store } = await firestore();
+			await lite.addDoc(lite.collection(store, 'submissions'), { ...lead, status: 'new', history: [], createdAt: lite.serverTimestamp() });
+			form.reset();
+			if (field('checkOut')) field('checkOut').min = today;
+			renderGenders();
+			showStatus('ok', thanks);
+		} catch (error) {
+			console.error(error);
+			showStatus('error', `Не вдалося надіслати запит. Зателефонуйте нам: <a href="tel:${PHONE.replace(/[^\d+]/g, '')}">${PHONE}</a>.`);
+		} finally {
+			submit.disabled = false;
+			submit.textContent = submitLabel;
+		}
+	});
 }
 
-var status=form.querySelector('.req-status');
-var submitBtn=form.querySelector('button[type="submit"]');
-
-var originalChildren=Array.prototype.slice.call(form.children);
-var successBox=document.createElement('div');
-successBox.className='req-success';
-successBox.hidden=true;
-successBox.innerHTML='<p class="req-success-icon" aria-hidden="true">✅</p><p class="req-success-title">Дякуємо!</p><p class="req-success-text"></p><button type="button" class="btn req-success-reset">Надіслати ще один запит</button>';
-form.appendChild(successBox);
-var successText=successBox.querySelector('.req-success-text');
-
-var showForm=function(){
-originalChildren.forEach(function(c){c.style.display=''});
-successBox.hidden=true;
-};
-var showSuccess=function(phoneVal){
-originalChildren.forEach(function(c){c.style.display='none'});
-successText.textContent='Ми зв’яжемось з вами'+(phoneVal?' за номером '+phoneVal:'')+' найближчим часом.';
-successBox.hidden=false;
-};
-
-successBox.querySelector('.req-success-reset').addEventListener('click',function(){
-showForm();
-form.reset();
-if(kindRadios.length)applyKind();
-if(petRadios.length&&petExtra)applyPet();
-if(status)status.textContent='';
-});
-
-form.addEventListener('submit',function(e){
-e.preventDefault();
-if(!form.reportValidity())return;
-
-var lines=[];
-form.querySelectorAll('input,select,textarea').forEach(function(el){
-if(!el.name||el.name==='kind'||el.disabled)return;
-if(el.closest('[hidden]'))return;
-if(el.type==='radio'||el.type==='checkbox'){
-if(!el.checked)return;
-}
-var val=(el.value||'').trim();
-if(!val)return;
-if(el.type==='checkbox'){
-var existing=lines.find(function(l){return l.name===el.name});
-if(existing){existing.value+=', '+val;return}
-}
-lines.push({name:el.name,value:val});
-});
-
-var kindEl=form.querySelector('input[name="kind"]:checked');
-var titleEl=form.querySelector('.form-title');
-var sectionTitle=form.closest('section');
-sectionTitle=sectionTitle?sectionTitle.querySelector('h2.title'):null;
-var heading=(titleEl&&titleEl.textContent.trim())||(sectionTitle&&sectionTitle.textContent.trim())||'Бронювання';
-
-var phoneLine=lines.find(function(l){return l.name==='Телефон'});
-var phoneVal=phoneLine?phoneLine.value:'';
-
-var text='📩 Заявка з сайту '+SLUG+'.webart.work\n'+heading+(kindEl?' ('+(KIND_LABELS[kindEl.value]||kindEl.value)+')':'')+'\n\n'+
-lines.map(function(l){return l.name+': '+l.value}).join('\n');
-
-if(submitBtn)submitBtn.disabled=true;
-if(status)status.textContent='Надсилаємо…';
-
-fetch(ENDPOINT,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({slug:SLUG,message:text})})
-.then(function(r){return r.json()})
-.then(function(res){
-if(res===true){
-if(status)status.textContent='';
-form.reset();
-if(kindRadios.length)applyKind();
-if(petRadios.length&&petExtra)applyPet();
-showSuccess(phoneVal);
-}else{
-throw new Error('telegram failed');
-}
-})
-.catch(function(){
-if(status)status.textContent='Не вдалося надіслати заявку. Будь ласка, зателефонуйте нам.';
-})
-.finally(function(){
-if(submitBtn)submitBtn.disabled=false;
-});
-});
-});
-})();
-</script></body></html>
+document.querySelectorAll('form[data-hotelos]').forEach(setup);
+</script>
+</body></html>
